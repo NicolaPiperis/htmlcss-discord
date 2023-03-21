@@ -1,0 +1,264 @@
+/* general rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    
+    font-size: 30px;
+    line-height: 45px;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    
+}
+
+h2{
+    font-size: 50px;
+}
+
+span{
+    display: inline-block;
+}
+
+
+/* header rules */
+
+    header{
+        background-image: url(../img/jumbo.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+
+        /* nav rules */
+
+        header a{
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+    
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            margin-bottom: 40px;
+            
+        }
+
+        #first-nav-link{
+            display: flex;
+            justify-content: space-around;
+            flex-basis: 900px;
+            font-size: smaller;
+           
+        }
+
+      
+
+        /* last part header */
+        #hero{
+            width: 60%;
+            margin: auto;
+            margin-top: 150px;
+            text-align: center;
+            padding-bottom: 200px;
+            color: white;
+            font-size: 22px;
+        }
+
+        #hero h2{
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        #hero button{
+            margin: 25px 25px;
+            
+        }
+
+        #open-browser-button{
+            color: white;
+            background-color: #23272a;
+        }
+
+
+/* main rules */
+
+
+.flex-conteiner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000px;
+}
+
+.text-section{
+    width: 30%;
+    text-align: left;
+}
+
+.text-section h2{
+    text-align: left;
+    line-height: 80px;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+
+.grey{
+    background-color: #f6f6f6;
+}
+
+.grey .text-section{
+    margin-right: 220px;
+}
+
+
+.text-section3{
+    margin-left: 100px;
+    width: 30%;
+    text-align: left;
+}
+
+.text-section3 h2{
+    text-align: left;
+    line-height: 80px;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+
+.last-conteiner{
+    text-align: center;
+    min-height: 1300px;
+}
+
+.last-image{
+    margin:20px auto;
+}
+
+.last-image img{
+    width: 1500px;
+}
+
+.last-conteiner p {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+.last-conteiner h2 {
+    padding-top: 70px;
+}
+
+.last-text-section{
+    text-align: center;
+}
+
+#star{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    width: 900px;
+    margin: 50px auto;
+
+}
+
+#last-main-button{
+    background-color: #7289da;
+    color: white;
+    margin-bottom: 80px;
+}
+
+/* footer rules */
+
+footer{
+    background-color: #23272a;
+    width: 100%;
+    min-height: 800px;
+    color: white;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-conteiner{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+strong{
+    color: #7289da;
+}
+
+.flex-items-footer{
+    padding: 50px;
+    font-size: 20px;
+
+}
+
+#end-footer{
+    border-top: solid 2px #3f4968;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+footer #logo {
+    font-size: 20px;
+}
+
+footer button{
+    color: white;
+    background-color: #7289da;
+    font-size: 15px;
+}
+
+#language img {
+    width: 30px;
+}
+
+#language {
+    font-size: 15px;
+   
+}
+
+#icons span {
+    padding-right: 10px;
+}
+
+
+
+
+        
