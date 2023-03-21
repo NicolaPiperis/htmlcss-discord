@@ -1,0 +1,207 @@
+/* general rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    
+    font-size: 30px;
+    line-height: 65px;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 50px;
+}
+
+span{
+    display: inline-block;
+}
+
+
+/* header rules */
+
+
+
+    /* nav rules */
+    header nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #first-nav-link{
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 700px;
+    }
+
+    #login{
+        color: black;
+        background-color: white;
+    }
+
+    /* last part header */
+    #hero{
+        width: 60%;
+        margin: 250px auto;
+        text-align: center;
+    }
+
+
+/* main rules */
+
+
+.flex-conteiner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000px;
+}
+
+.last-conteiner{
+    text-align: center;
+    min-height: 1000px;
+}
+
+.grey{
+    background-color: lightslategray;
+}
+
+.text-section{
+    width: 30%;
+    text-align: center;
+}
+
+.last-image{
+    margin:20px auto;
+}
+
+.last-conteiner p {
+    width: 60%;
+    margin: auto;
+}
+
+/* footer rules */
+
+footer{
+    background-color: rgb(7, 7, 75);
+    width: 100%;
+    min-height: 800px;
+    color: white;
+    
+}
+
+#footer-conteiner{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+strong{
+    color: aqua;
+}
+
+.flex-items-footer{
+    padding: 50px;
+    font-size: 20px;
+
+}
+
+#end-footer{
+    border-top: solid 1px grey;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #logo {
+    font-size: 20px;
+}
+
+footer button{
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+
+/* debug rules */
+
+    /* header rules */
+
+        /* nav rules */
+        
+        #logo{
+            background-color:aqua;
+        }
+
+        header nav ul li {
+            background-color: bisque;
+        }
+
+        /* last part header */
+
+        h2{
+            background-color: aquamarine;
+        }
+
+        p{
+            background-color: blueviolet;
+        }
+
+        .image{
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+            
+        }
+
+        #language{
+            background-color: brown;
+            width: 80px;
+            height: 30px;
+        }
+
+        #icons{
+            background-color: brown;
+            width: 80px;
+            height: 30px;
+            display: block;
+        }
+
+        *{
+            border: solid 1px black;
+        }
+
+        /* test */
