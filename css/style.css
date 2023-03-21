@@ -9,21 +9,18 @@
 body{
     
     font-size: 30px;
-    line-height: 65px;
+    line-height: 45px;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 button {
     border: none;
     border-radius: 25px;
-    padding: 15px;
+    padding: 15px 30px;
     cursor: pointer;
-    font-size: 25px;
-}
-
-header a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    
 }
 
 footer a{
@@ -43,33 +40,68 @@ span{
 
 /* header rules */
 
-
-
-    /* nav rules */
-    header nav {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 40px;
-        margin-bottom: 40px;
+    header{
+        background-image: url(../img/jumbo.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
     }
 
-    #first-nav-link{
-        display: flex;
-        justify-content: space-around;
-        flex-basis: 700px;
-    }
+        /* nav rules */
 
-    #login{
-        color: black;
-        background-color: white;
-    }
+        header a{
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+    
+        header a:hover {
+            text-decoration: underline;
+        }
 
-    /* last part header */
-    #hero{
-        width: 60%;
-        margin: 250px auto;
-        text-align: center;
-    }
+        header nav {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            margin-bottom: 40px;
+            
+        }
+
+        #first-nav-link{
+            display: flex;
+            justify-content: space-around;
+            flex-basis: 900px;
+            font-size: smaller;
+           
+        }
+
+      
+
+        /* last part header */
+        #hero{
+            width: 60%;
+            margin: auto;
+            margin-top: 150px;
+            text-align: center;
+            padding-bottom: 200px;
+            color: white;
+            font-size: 22px;
+        }
+
+        #hero h2{
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        #hero button{
+            margin: 25px 25px;
+            
+        }
+
+        #open-browser-button{
+            color: white;
+            background-color: #23272a;
+        }
 
 
 /* main rules */
@@ -160,25 +192,8 @@ footer button{
 
     /* header rules */
 
-        /* nav rules */
         
-        #logo{
-            background-color:aqua;
-        }
 
-        header nav ul li {
-            background-color: bisque;
-        }
-
-        /* last part header */
-
-        h2{
-            background-color: aquamarine;
-        }
-
-        p{
-            background-color: blueviolet;
-        }
 
         .image{
             height: 400px;
@@ -200,8 +215,4 @@ footer button{
             display: block;
         }
 
-        *{
-            border: solid 1px black;
-        }
-
-        /* test */
+        
