@@ -124,6 +124,7 @@ span{
 
 .grey{
     background-color: #f6f6f6;
+    position: relative;
 }
 
 .grey .text-section{
@@ -257,6 +258,17 @@ footer button{
 #icons span {
     padding-right: 10px;
 }
+
+/* BONUS */
+
+.grey .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:  white;
+}
+
 
 
 
