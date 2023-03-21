@@ -23,12 +23,6 @@ button {
     
 }
 
-footer a{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-}
-
 h2{
     font-size: 50px;
 }
@@ -153,30 +147,64 @@ span{
 
 .last-conteiner{
     text-align: center;
-    min-height: 1000px;
+    min-height: 1300px;
 }
 
 .last-image{
     margin:20px auto;
 }
 
-.last-conteiner p {
-    width: 60%;
-    margin: auto;
+.last-image img{
+    width: 1500px;
 }
 
-.last-conteiner .text-section  h2{
+.last-conteiner p {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+.last-conteiner h2 {
+    padding-top: 70px;
+}
+
+.last-text-section{
     text-align: center;
+}
+
+#star{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    width: 900px;
+    margin: 50px auto;
+
+}
+
+#last-main-button{
+    background-color: #7289da;
+    color: white;
+    margin-bottom: 80px;
 }
 
 /* footer rules */
 
 footer{
-    background-color: rgb(7, 7, 75);
+    background-color: #23272a;
     width: 100%;
     min-height: 800px;
     color: white;
     
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 #footer-conteiner{
@@ -185,10 +213,11 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    padding-top: 100px;
 }
 
 strong{
-    color: aqua;
+    color: #7289da;
 }
 
 .flex-items-footer{
@@ -215,30 +244,20 @@ footer button{
     margin-top: 5px;
 }
 
+#language img {
+    width: 30px;
+}
+
+#language {
+    font-size: 15px;
+   
+}
+
+#icons span {
+    padding-right: 10px;
+}
 
 
 
-
-/* debug rules */
-
-    /* header rules */
-
-        
-
-
-        
-
-        #language{
-            background-color: brown;
-            width: 80px;
-            height: 30px;
-        }
-
-        #icons{
-            background-color: brown;
-            width: 80px;
-            height: 30px;
-            display: block;
-        }
 
         
