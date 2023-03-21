@@ -121,12 +121,19 @@ span{
 }
 
 .grey{
-    background-color: lightslategray;
+    background-color: #f6f6f6;
 }
 
 .text-section{
     width: 30%;
-    text-align: center;
+    text-align: left;
+}
+
+.text-section h2{
+    text-align: left;
+    line-height: 80px;
+    font-size: 70px;
+    margin-bottom: 30px;
 }
 
 .last-image{
@@ -195,12 +202,7 @@ footer button{
         
 
 
-        .image{
-            height: 400px;
-            width: 400px;
-            background-color: blue;
-            
-        }
+        
 
         #language{
             background-color: brown;
