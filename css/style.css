@@ -115,15 +115,6 @@ span{
     min-height: 1000px;
 }
 
-.last-conteiner{
-    text-align: center;
-    min-height: 1000px;
-}
-
-.grey{
-    background-color: #f6f6f6;
-}
-
 .text-section{
     width: 30%;
     text-align: left;
@@ -136,6 +127,35 @@ span{
     margin-bottom: 30px;
 }
 
+
+.grey{
+    background-color: #f6f6f6;
+}
+
+.grey .text-section{
+    margin-right: 220px;
+}
+
+
+.text-section3{
+    margin-left: 100px;
+    width: 30%;
+    text-align: left;
+}
+
+.text-section3 h2{
+    text-align: left;
+    line-height: 80px;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+
+.last-conteiner{
+    text-align: center;
+    min-height: 1000px;
+}
+
 .last-image{
     margin:20px auto;
 }
@@ -143,6 +163,10 @@ span{
 .last-conteiner p {
     width: 60%;
     margin: auto;
+}
+
+.last-conteiner .text-section  h2{
+    text-align: center;
 }
 
 /* footer rules */
