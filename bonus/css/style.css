@@ -107,6 +107,7 @@ span{
     justify-content: center;
     align-items: center;
     min-height: 1000px;
+    position: relative;
 }
 
 .text-section{
@@ -261,14 +262,20 @@ footer button{
 
 /* BONUS */
 
-.grey .wave {
+.wave {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color:  white;
+    
 }
 
+/* .wave-white {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+} */
 
 
 
