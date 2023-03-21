@@ -227,11 +227,12 @@ strong{
 }
 
 #end-footer{
-    border-top: solid 1px grey;
+    border-top: solid 2px #3f4968;
     width: 75%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 35px;
 }
 
 footer #logo {
@@ -239,9 +240,9 @@ footer #logo {
 }
 
 footer button{
-    font-size: 20px;
-    padding: 5px;
-    margin-top: 5px;
+    color: white;
+    background-color: #7289da;
+    font-size: 15px;
 }
 
 #language img {
